@@ -35,3 +35,8 @@ lex calculator.l        # lex.yy.c dosyasını üretir
 yacc -d calculator.y    # Yacc dosyasını işleyerek y.tab.c ve y.tab.h dosyalarını üretir
 gcc lex.yy.c y.tab.c -o calculator -lm #  C kodlarını derleyip çalıştırılabilir dosya oluşturur. Buradaki lm önemlidir ve pow() fonksiyonunun çalışmasını sağlar.
 ./calculator            # Programı çalıştır
+
+
+Rıdvan Umut Ünal 
+221101008
+
